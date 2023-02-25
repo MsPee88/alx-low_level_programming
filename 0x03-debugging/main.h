@@ -1,12 +1,12 @@
-main.h
+#ifndef MAIN_H
 
-#findefMAIN_H
-#defineMAIN_H
+#define MAIN_H
+
 #include<stdio.h>
 
-void positive_or_negative(int i)
+void positive_or_negative(int i);
 	int largest_number(int a, int b,int c);
-	void print_remaining_days(int month, int day,int year);
 	int convert_day(int month,int day);
+	void print_remaining_days(int month, int day,int year);
 
-#endif
+#endif /* NAIN_H */
