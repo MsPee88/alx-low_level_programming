@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<unistd.h>
+#include <stdio.h>
+#include <unistd.h>
 /**
  * main - Entry point
  * Description: prints two digits combination
@@ -21,7 +21,7 @@ int main(void)
 				if (c != '8' || (c == '8' && i != '9'))
 				{
 					putchar(',');
-						putchar(',');
+					putchar(' ');
 				}
 			}
 		}
@@ -29,4 +29,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
