@@ -1,12 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- * main - Prints out a string to stdout.
- *
- * Return 0 if sucess.
+ * main - Print a string
+ * Description: use printf
+ * Return: 0
  */
-int main (void)
+int main(void)
 {
-	printf("with proper grammar,but the outcome is a piece of art,\n");
+	printf("%s", "with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }

@@ -1,13 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- * main - Prints out a sting to stdout.
- *
- * Return: Always 0 (Sucess)
+ * main - Entry point
+ * Description: this function prints an output
+ * Return: 0
  */
-int main (void)
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
-	
 }
