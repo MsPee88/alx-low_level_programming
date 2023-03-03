@@ -1,18 +1,18 @@
 #include "main.h"
 
+
 /**
  * _strncpy - Copy a string
  * @dest: input value
  * @src: input value
  * @n: input value
- * Return: Apointer to the resulting string dest
+ * Return: dest
  */
-
 char *_strncpy(char *dest, char *src, int n)
 {
 	int j;
 
-	j = 0
+	j = 0;
 	while (j < n && src[j] != '\0')
 	{
 		dest[j] = src[j];
