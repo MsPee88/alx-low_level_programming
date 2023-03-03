@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strcmp - Compares string values
  * @s1: input value
