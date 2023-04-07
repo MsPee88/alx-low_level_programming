@@ -5,9 +5,9 @@
  * @b: binary number
  * Return: the converted number or 0 if it fails
  */
-unsigned int binary_to_unit(constr char *b)
+unsigned int binary_to_uint(const char *b)
 {
-	unsigned int unit, place;
+	unsigned int uint, place;
 	int n;
 
 	if (!b)
